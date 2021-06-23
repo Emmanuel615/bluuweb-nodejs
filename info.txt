@@ -1,0 +1,23 @@
+_iniciar "package.json" para administrar las dependencias --> npm init -y
+
+/* si se quiere instalar algun package hay que hacer:
+       instalar un package local --> npm install <package name>
+
+       instalar un package global --> npm install -g <package name>
+*/
+
+_instalar Nodemon para refrescar cambios del codigo en la pagina --> npm install -g nodemon
+_correr la app con --> nodemon app
+
+_instalar Express para hacer nuestra pagina web mas dinamica --> npm i express
+
+_en la carpeta public se encuentra todo a lo que el cliente puede acceder, dentro deveria estar todo lo que se hizo con react o vue
+esta carpeta contiene todos archivos estaticos
+
+_vamos a renderizar nuestras paginas en el servidor con EJS --> npm i ejs
+
+_en la carpeta "template" vamos a tener todas las partes de la pagina que vamos a mostrar repetidas en cada pagina
+y para incluir los template se coloca <%- include("template/cabecera", {tituloWeb: 'Pagina de Inicio' }) %>
+
+
+_incluimos un navbar con el diseño de bootstrap dentro del body
